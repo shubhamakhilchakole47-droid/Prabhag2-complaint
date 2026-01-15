@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <title>प्रभाग २ | तक्रार नोंदणी</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📝 प्रभाग २<br>दैनिक तक्रार नोंदणी</h1>
+    <p>आपली समस्या खाली नोंदवा</p>
+
+    <form id="complaintForm">
+        <input type="text" id="name" placeholder="पूर्ण नाव" required>
+        <input type="tel" id="mobile" placeholder="मोबाईल नंबर" required>
+
+        <select id="type" required>
+            <option value="">तक्रारीचा प्रकार निवडा</option>
+            <option>रस्त्याची समस्या</option>
+            <option>पाणी पुरवठा</option>
+            <option>कचरा</option>
+            <option>स्ट्रीट लाईट</option>
+            <option>नाली / ड्रेनेज</option>
+            <option>इतर</option>
+        </select>
+
+        <textarea id="details" placeholder="तक्रारीचे सविस्तर वर्णन" required></textarea>
+
+        <button type="submit">WhatsApp वर तक्रार पाठवा</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
